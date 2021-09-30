@@ -1,0 +1,773 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+header {
+    background-image: url(../img/main-bg.png);
+    background-size: cover;
+}
+
+.container {
+    max-width: 1196px;
+    margin: 0 auto;
+}
+
+header>.container {
+    padding: 35px 0 148px;
+}
+
+.up {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu {
+    display: none;
+}
+
+header nav ul {
+    max-width: 734px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+button {
+    background-color: #F84646;
+    border: none;
+    border-radius: 8px;
+}
+
+.up button {
+    width: 91px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.up button a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 10px 20px;
+}
+
+.header-info {
+    display: flex;
+    max-width: 57%;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 125px 0 20px;
+    font-size: 64px;
+    line-height: 82px;
+    font-weight: 800;
+}
+
+.header-info p {
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    max-width: 502px;
+    background-color: white;
+    border-radius: 8px;
+    padding-left: 32px;
+}
+
+.subscribe input {
+    border: none;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+
+button>a {
+    text-decoration: none;
+    color: white;
+}
+
+.subscribe button {
+    padding: 13px 38px 12px 37px;
+    border: 6px white solid;
+    border-radius: 8px;
+}
+
+.subscribe button a {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+
+::-webkit-input-placeholder, ::-moz-placeholder, :-moz-placeholder, :-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    border: none;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.benefits .container h4 {
+    margin-bottom: 30px;
+}
+
+.benefits .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 22px 49px;
+}
+
+.benefits p {
+    display: inline-block;
+    max-width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+}
+
+.points {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+.benefit {
+    max-width: 32%;
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 91px;
+    position: relative;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.points .benefit p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+.benefit img {
+    z-index: 1;
+}
+
+.ellipse {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.file {
+    background-color: #FF5391;
+    left: 50%;
+}
+
+.star {
+    background-color: #7553FF;
+    right: 50%;
+}
+
+.crown {
+    background-color: #53C1FF;
+    left: 50%;
+}
+
+.chartbar {
+    background-color: #53ACFF;
+    right: 50%;
+}
+
+.charthieslic {
+    background-color: #FF5353;
+    left: 50%;
+}
+
+.figma {
+    background-color: #FFBA53;
+    left: 50%;
+}
+
+.test {
+    background-color: #F84646;
+}
+
+.test>.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 68px 52px 78px;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: 0.2px;
+}
+
+.test h3 {
+    color: white;
+    text-align: center;
+}
+
+.test span {
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    margin-bottom: 64px;
+}
+
+.states {
+    display: flex;
+    justify-content: space-between;
+}
+
+.states p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 31px;
+    color: white;
+}
+
+.states img {
+    margin: 0 46px;
+}
+
+.kalite-test>.container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    vertical-align: top;
+    padding: 160px 0 40px;
+}
+
+.kalite-test h2 {
+    font-size: 64px;
+    line-height: 76px;
+    margin-bottom: 40px;
+}
+
+.kalite-test p {
+    font-size: 16px;
+    line-height: 32px;
+    color: #808080;
+    margin-bottom: 80px;
+}
+
+.kalite-test button {
+    width: 169px;
+    height: 48px;
+}
+
+.kalite-test button a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.kalite, .yonetimi, .meeting, .notebook, .man {
+    max-width: 50%;
+    margin-bottom: 120px;
+}
+
+.notebook {
+    display: none;
+}
+
+.clients {
+    background-color: #F4F5F7;
+}
+
+.clients h3 {
+    color: #18191F;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.clients span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.clients>.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 59px 43px;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 170px;
+    height: 96px;
+    border-radius: 16px;
+    margin: 12px;
+    background-color: white;
+}
+
+.bize>.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 160px 0;
+}
+
+.bize .big-ellipse {
+    display: inline-block;
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    position: absolute;
+    right: 543px;
+    background-color: #F84646;
+    z-index: -1;
+}
+
+.bize img {
+    margin-bottom: 10px;
+}
+
+.bize h3 {
+    margin-bottom: 20px;
+}
+
+.bize span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.bize button {
+    padding: 25px;
+}
+
+.bize button a {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+footer {
+    font-family: 'Inter', sans-serif;
+    background-color: #F8464A;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px 0 70px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.column {
+    display: flex;
+    max-width: 25%;
+    flex-direction: column;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li {
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer nav ul li:first-child {
+    font-weight: bold;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.down p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: white;
+}
+
+.media {
+    display: flex;
+}
+
+.media>a {
+    margin-left: 16px;
+}
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 95%;
+    }
+    header {
+        background-size: 110%;
+        background-repeat: no-repeat;
+    }
+    header>.container {
+        padding: 35px 0 91px;
+    }
+    .header-info {
+        max-width: 63%;
+    }
+    h1 {
+        font-size: 56px;
+        line-height: 74px;
+        margin-top: 96px;
+    }
+    .header-info p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .points {
+        max-width: 764px;
+        justify-content: space-between;
+    }
+    .benefit {
+        max-width: 50%;
+    }
+    .test>.container {
+        padding: 68px 0 40px;
+    }
+    .kalite-test h2 {
+        font-size: 58px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+    .kalite-test>.container {
+        justify-content: space-around;
+    }
+    .kalite-test p {
+        margin-bottom: 46px;
+    }
+    .meeting, .notebook .man {
+        max-width: 424px;
+    }
+    .kalite, .yonetimi, .meeting, .notebook .man {
+        padding: 0 20px;
+    }
+    .notebook {
+        display: inline-block;
+    }
+    .man {
+        display: none;
+    }
+    .bize .big-ellipse {
+        right: 440px;
+    }
+}
+
+@media (max-width:375px) {
+    header {
+        max-height: 601px;
+        background-size: 350%;
+        background-position-x: 65%;
+        background-position-y: 50%;
+    }
+    header>.container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        max-width: 96%;
+        padding: 35px 0 84px;
+    }
+    .up {
+        justify-content: space-between;
+    }
+    .menu {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    h1 {
+        margin: 0 0 30px;
+        font-size: 42px;
+        line-height: 57px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .header-info {
+        max-width: 100%;
+        margin-top: 62px;
+    }
+    .header-info p {
+        font-size: 12px;
+        line-height: 23px;
+        text-align: center;
+        margin-bottom: 43px;
+    }
+    .subscribe {
+        max-width: 100%;
+        padding-left: 21px;
+    }
+    .subscribe input {
+        font-size: 14px;
+    }
+    .subscribe button {
+        padding: 16px 18px 15px;
+        border: 5px white solid;
+    }
+    .subscribe button a {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 36px;
+        letter-spacing: 0.2px;
+    }
+    ::-webkit-input-placeholder, ::-moz-placeholder, :-moz-placeholder, :-ms-input-placeholder {
+        font-size: 14px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    .benefits .container h4 {
+        margin-bottom: 15px;
+    }
+    .benefits>.container {
+        padding: 60px 0 90px;
+        align-content: center;
+    }
+    .benefits p {
+        margin-bottom: 58px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .points {
+        margin: 0;
+        align-content: center;
+    }
+    .benefit {
+        max-width: 100%;
+        height: 212px;
+        margin-bottom: 80px;
+    }
+    .benefit:last-child {
+        margin-bottom: 0;
+    }
+    .test>.container {
+        padding: 50px 0 74px;
+    }
+    .states {
+        flex-direction: column;
+        align-items: center;
+    }
+    h3 {
+        font-size: 36px;
+        line-height: 47px;
+        letter-spacing: 0%;
+    }
+    .test h3 {
+        margin-bottom: 9px;
+    }
+    .test span {
+        font-size: 14px;
+        line-height: 32px;
+        margin-bottom: 35px;
+    }
+    .states p {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: auto;
+        text-align: center;
+    }
+    .states img {
+        width: 36px;
+        height: 36px;
+        margin: 0 46px;
+    }
+    .states p, .states img {
+        margin: 20px 0;
+    }
+    .kalite-test>.container {
+        padding: 90px 0 19px;
+        flex-direction: row-reverse;
+        align-items: center;
+        vertical-align: middle;
+    }
+    .kalite-test h2 {
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .kalite-test p {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .kalite, .yonetimi, .meeting, .notebook, .man {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .kalite, .yonetimi {
+        padding-bottom: 30px;
+    }
+    .kalite-test button {
+        width: 100%;
+    }
+    .kalite {
+        order: 1;
+    }
+    .notebook {
+        order: 2;
+    }
+    .yonetimi {
+        order: 3;
+    }
+    .clients h3 {
+        line-height: 42px;
+        margin-bottom: 14px;
+    }
+    .clients span {
+        font-size: 14px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+    .clients>.container {
+        padding: 40px 0;
+    }
+    .brands {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bize>.container {
+        padding: 90px 0 82px;
+    }
+    .bize img {
+        margin-bottom: 20px;
+    }
+    .bize h3 {
+        margin-bottom: 20px;
+    }
+    .bize span {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .bize button {
+        padding: 11px 21px;
+    }
+    .bize button a {
+        font-size: 16px;
+    }
+    .bize .big-ellipse {
+        right: 125px;
+    }
+    footer .container {
+        padding: 80px 0 77px;
+    }
+    footer nav {
+        flex-direction: column;
+        margin-bottom: 6px;
+    }
+    footer nav ul li {
+        padding: 0;
+        margin-bottom: 24px;
+    }
+    footer nav ul li:first-child {
+        font-weight: bold;
+    }
+    .column {
+        margin-bottom: 25px;
+        max-width: 100%;
+    }
+    .down {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .down p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        color: white;
+    }
+    .media {
+        margin-bottom: 62px;
+    }
+    .media>a {
+        margin: 0 16px 0 0;
+    }
+}
